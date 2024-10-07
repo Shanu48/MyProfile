@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Profile Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#skills">My Skills</a>
+            <a href="#education">My Education</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Shravani Sawant</h1>
+            <h3>And I'm a <span>student at MIT, Manipal</span></h3>
+            <p>My journey revolves around a passion for technology and a relentless pursuit of learning.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/shravanissawant/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/Shanu48"><i class='bx bxl-github' ></i></a>
+            </div>
+            <!--<a href="#" class="btn">Download CV</a>-->
+        </div>
+
+        <div class="home-img">
+            <img src="Shravani.jpeg" alt="Shravani">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="home-image">
+            <img src="Shravani.jpeg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi!</h3>
+            <p>I am Shravani Sawant, currently persuing B. Tech in Computer and Communication Enginnering at Manipal Institute of Technology.</p>
+            <p>I have just finished my first year and am excited to move on to the next stage. Right now I am making use of this time to learn some Web Developement and that's the purpose of this website.</p>
+            <a href="about.html" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- skills section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skill-container">
+            <div class="skill-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Developement</h3>
+                <p>Learning Web Developement to step into a new journey. This website has been a major part of it<br><br></p>
+                <!--<a href="#" class="btn">Read More</a>-->
+            </div>
+
+            <div class="skill-box">
+                <i class='bx bxl-python' ></i>
+                <h3>Python Coding</h3>
+                <p>Started my journey in the feild of coding with Python in grade 11. Currently I am well versed in basic python language and am still learning a lot more</p>
+                <!--<a href="#" class="btn">Read More</a>-->
+            </div>
+
+            <div class="skill-box">
+                <i class='bx bxl-adobe' ></i>
+                <h3>Adobe Photoshop</h3>
+                <p>Also stepping into the feild of Adobe Photoshop to learn picture editing.</p>
+                <!--<a href="#" class="btn">Read More</a>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="skill-container">
+            <div class="skill-box">
+                <centre><img src="manipal.jpg" alt=""></centre>
+                <h3>Manipal Institute of Technology, Manipal</h3>
+                <p>Starting my journey here in 2023 it has been an amazing experience. There is a lot to look forward to in this journey as its not even half way through</p>
+                <a href="https://www.manipal.edu/mit.html" class="btn">Learn more about MIT, Manipal</a>
+            </div>
+
+            <div class="skill-box">
+                <centre><img src="mks.jpeg" alt=""></centre>
+                <h3>Madhava Kripa School, Manipal</h3>
+                <p>Beginning my journey in Manipal here, I have come a long way. Never thought I would connect to a school as I connected to MKS, especially its teachers</p>
+                <a href="https://madhavakripa.edu.in/" class="btn">Learn more about MKS, Manipal</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile No.">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    j<!--Java script input-->
+    <script src="script.js"></script>
+
+</body>
